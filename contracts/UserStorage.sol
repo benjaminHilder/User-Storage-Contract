@@ -49,13 +49,4 @@ contract userStorage {
     function remove(uint _id) public {
         delete users[_id - 1];
     }
-
-    //function find(uint _id) view internal returns(uint) {
-    //    for(uint i = 0; i < users.length; i++) {
-    //        if(users[i].id == _id) {
-    //            return i;
-    //        }
-    //    }
-    //    revert('Cannot find user you were looking for');
-    //}
 }
